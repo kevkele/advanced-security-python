@@ -10,6 +10,7 @@ def super_print(s):
 
 
 super_print("CAT")
+super_print("DOG")
 
 ROOT = os.path.dirname(os.path.abspath(os.path.dirname(__file__)))
 TEMPLATES = os.path.join(ROOT, 'templates')
